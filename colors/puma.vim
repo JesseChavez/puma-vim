@@ -54,9 +54,11 @@ highlight Label ctermfg=103 guifg=#8197bf
 " xterm 16 (15 or white), 256 ( 251 grey 85)
 highlight CursorLineNr ctermfg=251 gui=NONE guifg=#dadada
 
-" this is link to warnings (ALE)
+" this was link to warnings (ALE warning)
 " xterm 16 (7 or silver), 256 ( 251 grey 85)
 highlight Todo cterm=bold ctermfg=251 ctermbg=233 gui=bold guifg=#c7c7c7 guibg=#151515
+" highlight ALEWarningSign cterm=bold ctermfg=251 ctermbg=11 gui=bold guifg=#ffff00 guibg=#151515
+highlight ALEWarningSign cterm=NONE ctermfg=251 ctermbg=11 gui=NONE guifg=#ffff00 guibg=#151515
 
 " xterm 16 (9 or red), 256 ( 160 or red 1)
 highlight Error ctermfg=160 ctermbg=233 guifg=#ff0000 guibg=#151515
