@@ -13,10 +13,14 @@ let colors_name = "puma"
 let s:bg_color_gui = "#151515"
 let s:bg_color_ctr = "233"
 
+fun! s:set_color_group(group, gui_fg, gui_bg, cterm_fg, cterm_bg, gui, cterm, gui_attr, gui_val)
+
+endfun
+
 " xterm 16  (7, 0) or (silver, black)
 " xterm 256 (188, 233) or (grey 84, grey 7)
 highlight Normal ctermfg=188 ctermbg=233 guifg=#e8e8d3 guibg=#151515
-highlight LineNr ctermfg=59 ctermbg=233 guifg=#605958 guibg=#151515
+highlight LineNr ctermfg=59 ctermbg=233 guifg=#777777 guibg=#151515
 
 " xterm 16 (2 or green), 256 (107 or Dark Olive Green 3)
 highlight String ctermfg=107 guifg=#99ad6a
@@ -52,13 +56,13 @@ highlight Label ctermfg=103 guifg=#8197bf
 
 " ====================== details ================
 " xterm 16 (15 or white), 256 ( 251 grey 85)
-highlight CursorLineNr ctermfg=251 gui=NONE guifg=#dadada
+highlight CursorLineNr ctermfg=251 ctermbg=233 gui=NONE guifg=#dadada guibg=#090909
 
 " this was link to warnings (ALE warning)
 " xterm 16 (7 or silver), 256 ( 251 grey 85)
 highlight Todo cterm=bold ctermfg=251 ctermbg=233 gui=bold guifg=#c7c7c7 guibg=#151515
 " highlight ALEWarningSign cterm=bold ctermfg=251 ctermbg=11 gui=bold guifg=#ffff00 guibg=#151515
-highlight ALEWarningSign cterm=NONE ctermfg=251 ctermbg=11 gui=NONE guifg=#ffff00 guibg=#151515
+highlight ALEWarningSign cterm=NONE ctermfg=11 ctermbg=NONE gui=NONE guifg=#ffff00 guibg=NONE
 
 " xterm 16 (9 or red), 256 ( 160 or red 1)
 highlight Error ctermfg=160 ctermbg=233 guifg=#ff0000 guibg=#151515
@@ -73,8 +77,9 @@ highlight Search cterm=underline ctermfg=0 ctermbg=11 gui=underline guifg=#f0a0c
 highlight ColorColumn ctermbg=1 guibg=#000000
 
 " cursor in gnome terminal is opposite to the current character
-highlight Cursor guifg=#151515 guibg=#b0d0f0
-highlight CursorLine guibg=#1c1c1c
+" highlight Cursor guifg=#090909 guibg=#a0a0a0
+" highlight Cursor cterm=reverse gui=reverse guifg=NONE guibg=NONE
+highlight CursorLine guibg=#404040
 highlight CursorColumn ctermbg=242 guibg=#1c1c1c
 
 " highlighting is visual mode
