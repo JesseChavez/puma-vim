@@ -54,8 +54,8 @@ highlight Keyword ctermfg=103 guifg=#8197bf
 " xterm 16 (12 or blue), 256 (103 or light slate grey)
 highlight Label ctermfg=103 guifg=#8197bf
 
-" xterm 16 (6 or teal), 256 (6 or teal )
-highlight Special ctermfg=6 guifg=#008080
+" xterm 16 (6 or teal), 256 ( dark greenish )
+highlight Special ctermfg=6 guifg=#799d6a
 
 " ====================== details ================
 " xterm 16 (15 or white), 256 ( 251 grey 85)
@@ -120,11 +120,17 @@ hi! link rubyStringDelimiter StringDelimiter
 hi! link rubyInterpolationDelimiter Identifier
 
 " =============== JavaScript =================
+" xterm 16 (3 or olive), 256 (137 or light salmon 3 )
+highlight StorageClass ctermfg=6 guifg=#c59f6f
+
+" highlight jsFuncCall ctermfg=6 guifg=#d7ffff
+
 hi! link jsFuncArgs Special
 hi! link jsSuper Keyword
 hi! link jsThis Constant
 hi! link jsObjectKey rubySymbol
-hi! link jsStorageClass Identifier
+hi! link jsFunction Include
+hi! link jsArrowFunction Include
 
 " ================== HTML ====================
 hi! link htmlTag Statement
