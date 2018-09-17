@@ -54,6 +54,9 @@ highlight Keyword ctermfg=103 guifg=#8197bf
 " xterm 16 (12 or blue), 256 (103 or light slate grey)
 highlight Label ctermfg=103 guifg=#8197bf
 
+" xterm 16 (6 or teal), 256 (6 or teal )
+highlight Special ctermfg=6 guifg=#008080
+
 " ====================== details ================
 " xterm 16 (15 or white), 256 ( 251 grey 85)
 highlight CursorLineNr ctermfg=251 ctermbg=233 gui=NONE guifg=#dadada guibg=#090909
@@ -121,6 +124,7 @@ hi! link jsFuncArgs Special
 hi! link jsSuper Keyword
 hi! link jsThis Constant
 hi! link jsObjectKey rubySymbol
+hi! link jsStorageClass Identifier
 
 " ================== HTML ====================
 hi! link htmlTag Statement
@@ -128,7 +132,7 @@ hi! link htmlEndTag htmlTag
 hi! link htmlTagName htmlTag
 
 " ================== XML ====================
-hi! link xmlTag Identifier
+hi! link xmlTag Statement
 hi! link xmlEndTag xmlTag
 hi! link xmlTagName xmlTag
 hi! link xmlEqual xmlTag
