@@ -94,8 +94,7 @@ highlight PmenuThumb ctermbg=15 guibg=White
 " when you start Vim without file, buffer with ~ ~ ~
 highlight NonText ctermfg=12 guifg=#606060 guibg=#151515
 
-" =====================ruby specific====================
-
+" ================== RUBY ====================
 " xterm 16 (3 or olive), 256 (58 orange 4)
 highlight StringDelimiter ctermfg=58 guifg=#556633
 
@@ -117,7 +116,25 @@ hi! link rubyStringDelimiter StringDelimiter
 
 hi! link rubyInterpolationDelimiter Identifier
 
+" =============== JavaScript =================
+hi! link jsFuncArgs Special
+hi! link jsSuper Keyword
+hi! link jsThis Constant
+hi! link jsObjectKey rubySymbol
 
-" highlight Statement ctermfg=Cyan guifg=#7597c6
+" ================== HTML ====================
+hi! link htmlTag Statement
+hi! link htmlEndTag htmlTag
+hi! link htmlTagName htmlTag
 
-" Normal         xxx ctermfg=248 ctermbg=0 guifg=#c0c0c0 guibg=#000040
+" ================== XML ====================
+hi! link xmlTag Identifier
+hi! link xmlEndTag xmlTag
+hi! link xmlTagName xmlTag
+hi! link xmlEqual xmlTag
+hi! link xmlEntity Special
+hi! link xmlEntityPunct xmlEntity
+hi! link xmlDocTypeDecl PreProc
+hi! link xmlDocTypeKeyword PreProc
+hi! link xmlProcessingDelim xmlAttrib
+
