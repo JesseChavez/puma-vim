@@ -123,7 +123,7 @@ hi! link rubyInterpolationDelimiter Identifier
 " xterm 16 (3 or olive), 256 (137 or light salmon 3 )
 highlight StorageClass ctermfg=6 guifg=#c59f6f
 
-" highlight jsFuncCall ctermfg=6 guifg=#d7ffff
+" highlight jsFuncCall ctermfg=6 guifg=#ffd7af
 
 hi! link jsFuncArgs Special
 hi! link jsSuper Keyword
@@ -138,7 +138,9 @@ hi! link htmlEndTag htmlTag
 hi! link htmlTagName htmlTag
 
 " ================== XML ====================
-hi! link xmlTag Statement
+highlight xmlTag ctermfg=183 guifg=#d787d7
+hi! link xmlAttrib StorageClass
+" hi! link xmlTag Identifier
 hi! link xmlEndTag xmlTag
 hi! link xmlTagName xmlTag
 hi! link xmlEqual xmlTag
