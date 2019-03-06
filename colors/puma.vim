@@ -21,6 +21,7 @@ endfun
 " xterm 256 (188, 233) or (grey 84, grey 7)
 highlight Normal ctermfg=188 ctermbg=233 guifg=#e8e8d3 guibg=#151515
 highlight LineNr ctermfg=59 ctermbg=233 guifg=#777777 guibg=#151515
+highlight SignColumn ctermfg=59 ctermbg=233 guifg=#777777 guibg=#151515
 
 " xterm 16 (2 or green), 256 (107 or Dark Olive Green 3)
 highlight String ctermfg=107 guifg=#99ad6a
