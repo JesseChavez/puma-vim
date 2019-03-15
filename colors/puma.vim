@@ -21,7 +21,6 @@ endfun
 " xterm 256 (188, 233) or (grey 84, grey 7)
 highlight Normal ctermfg=188 ctermbg=233 guifg=#e8e8d3 guibg=#151515
 highlight LineNr ctermfg=59 ctermbg=233 guifg=#777777 guibg=#151515
-highlight SignColumn ctermfg=59 ctermbg=233 guifg=#777777 guibg=#151515
 
 " xterm 16 (2 or green), 256 (107 or Dark Olive Green 3)
 highlight String ctermfg=107 guifg=#99ad6a
@@ -85,6 +84,17 @@ highlight ColorColumn ctermbg=1 guibg=#000000
 " highlight Cursor cterm=reverse gui=reverse guifg=NONE guibg=NONE
 highlight CursorLine guibg=#404040
 highlight CursorColumn ctermbg=242 guibg=#1c1c1c
+
+" styling for the vertical split separator
+highlight VertSplit cterm=NONE gui=NONE ctermfg=59 ctermbg=233 guifg=#777777 guibg=#222222
+
+" styling for the sign column (the one the linter uses to show signs)
+highlight SignColumn ctermfg=59 ctermbg=233 guifg=#777777 guibg=#151515
+
+" Vim diff in the column first-ish (the one to show git changes)
+highlight DiffChange ctermfg=59 ctermbg=233 guifg=yellow guibg=#151515
+highlight DiffAdd ctermfg=59 ctermbg=233 guifg=green guibg=#151515
+highlight DiffDelete ctermfg=59 ctermbg=233 guifg=red guibg=#151515
 
 " highlighting is visual mode
 highlight Visual ctermbg=242 guibg=#404040
