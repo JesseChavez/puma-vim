@@ -92,7 +92,7 @@ highlight VertSplit cterm=NONE gui=NONE ctermfg=59 ctermbg=233 guifg=#777777 gui
 highlight SignColumn ctermfg=59 ctermbg=233 guifg=#777777 guibg=#151515
 
 " Vim diff in the column first-ish (the one to show git changes)
-highlight DiffChange ctermfg=59 ctermbg=233 guifg=yellow guibg=#151515
+highlight DiffChange ctermfg=59 ctermbg=233 guifg=magenta guibg=#151515
 highlight DiffAdd ctermfg=59 ctermbg=233 guifg=green guibg=#151515
 highlight DiffDelete ctermfg=59 ctermbg=233 guifg=red guibg=#151515
 
