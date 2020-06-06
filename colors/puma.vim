@@ -143,6 +143,15 @@ hi! link jsObjectKey rubySymbol
 hi! link jsFunction Include
 hi! link jsArrowFunction Include
 
+" ============== TypeScript =================
+hi! link typescriptIdentifier Constant
+hi! link typescriptClassName Type
+hi! link typescriptClassKeyword Define
+hi! link typescriptFuncKeyword Define
+hi! link typescriptCall Special
+hi! link typescriptImport Include
+hi! link typescriptRegexpString rubyRegexpSpecial
+
 " ================== HTML ====================
 hi! link htmlTag Statement
 hi! link htmlEndTag htmlTag
