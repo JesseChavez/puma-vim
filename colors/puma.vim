@@ -125,6 +125,13 @@ highlight rubyRegexpDelimiter ctermfg=53 guifg=#540063
 " xterm 16 (5 or purple), 256 (126 or medium violet red)
 highlight rubyRegexpSpecial ctermfg=126 guifg=#a40073
 
+" ================== Coc ===================
+" highlight CocUnderline cterm=undercurl gui=undercurl
+highlight CocWarningHighlight cterm=undercurl gui=undercurl guisp=Orange
+highlight CocErrorHighlight cterm=undercurl gui=undercurl guisp=Red
+highlight CocInfoHighlight cterm=undercurl gui=undercurl guisp=Red
+
+" ================== Ruby ===================
 hi! link rubyAttribute PreProc
 
 hi! link rubyStringDelimiter StringDelimiter
