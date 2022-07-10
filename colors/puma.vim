@@ -73,7 +73,7 @@ highlight Error ctermfg=160 ctermbg=233 guifg=#ff0000 guibg=#151515
 " xterm 16 (11 or yellow), 256 (222 or light goldenrod 2)
 highlight Directory ctermfg=222 guifg=#fad07a
 
-# highlight SpellBad cterm=underline ctermbg=9 gui=undercurl guibg=#902020 guisp=Red
+" highlight SpellBad cterm=underline ctermbg=9 gui=undercurl guibg=#902020 guisp=Red
 highlight SpellBad cterm=undercurl gui=undercurl guisp=Red
 
 highlight Search cterm=underline ctermfg=0 ctermbg=11 gui=underline guifg=#f0a0c0 guibg=#302028
