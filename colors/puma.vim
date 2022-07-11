@@ -131,6 +131,12 @@ highlight CocWarningHighlight cterm=undercurl gui=undercurl guisp=Orange
 highlight CocErrorHighlight cterm=undercurl gui=undercurl guisp=Red
 highlight CocInfoHighlight cterm=undercurl gui=undercurl guisp=Red
 
+" ================== nvim lsp ===================
+highlight DiagnosticUnderlineError cterm=undercurl gui=undercurl
+highlight DiagnosticUnderlineWarn cterm=undercurl gui=undercurl
+highlight DiagnosticUnderlineInfo cterm=undercurl gui=undercurl
+highlight DiagnosticUnderlineHint cterm=undercurl gui=undercurl
+
 " ================== Ruby ===================
 hi! link rubyAttribute PreProc
 
