@@ -1,3 +1,9 @@
-# My initial Vim colorscheme
+# Vim Puma Color Scheme
 
-the initial template was jellybeans
+
+
+
+
+# Credits
+
+- jellybeans vim color scheme was used as starting point.

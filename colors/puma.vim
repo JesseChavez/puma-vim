@@ -184,3 +184,7 @@ hi! link xmlDocTypeDecl PreProc
 hi! link xmlDocTypeKeyword PreProc
 hi! link xmlProcessingDelim xmlAttrib
 
+" ================== Treesitter ====================
+" hi! link TSNumber Number
+hi! link TSConstBuiltin Number
+" hi! link TSFuncBuiltin Constant
