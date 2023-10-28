@@ -1,8 +1,9 @@
-# Vim Puma Color Scheme
+# Puma Vim Color Scheme
 
+# Notes
 
-
-
+- New puma colorschema for neovim with basic treesitter support
+- https://github.com/JesseChavez/puma-nvim
 
 # Credits
 
